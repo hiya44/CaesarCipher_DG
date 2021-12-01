@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CaesarCipher_DGTests\**" />
+    <EmbeddedResource Remove="CaesarCipher_DGTests\**" />
+    <None Remove="CaesarCipher_DGTests\**" />
+  </ItemGroup>
+
+</Project>
